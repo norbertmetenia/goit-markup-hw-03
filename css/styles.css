@@ -2,20 +2,34 @@ body {
   font-family: "Roboto", sans-serif;
   color: rgba(33, 33, 33, 1);
   line-height: 1.17;
+  width: 1600px;
 }
 .semi-tittle {
   color: rgba(33, 150, 243, 1);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
+  margin-left: 215px;
 }
 .tittle-end {
   color: rgba(0, 0, 0, 1);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
 }
+.tittle-end-footer {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
 .links {
   text-decoration: none;
   letter-spacing: 0.03em;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.links-footer {
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  padding-top: 60px;
 }
 .header-list {
   text-decoration: none;
@@ -35,18 +49,37 @@ body {
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  border-style: none;
+  padding: 10px 41px;
 }
-.contact-header {
+.header-number {
   color: rgba(117, 117, 117, 1);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
+  margin-left: 50px;
+}
+.header-mail {
+  color: rgba(117, 117, 117, 1);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  margin-left: 371px;
 }
 .contact-header:hover {
   color: rgba(33, 150, 243, 1);
 }
-.contact-footer {
+.contact-footer-mail {
+  color: rgba(117, 117, 117, 1);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.contact-footer-number {
   color: rgba(117, 117, 117, 1);
   text-decoration: none;
   font-size: 14px;
@@ -58,9 +91,18 @@ body {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 1);
 }
-.effective-solutions {
+.hero-section {
   background-color: rgba(47, 48, 58, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  height: 600px;
 }
 .hero-text {
   color: rgba(255, 255, 255, 1);
@@ -68,6 +110,9 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 696px;
 }
 .list-heading {
   font-weight: 700;
@@ -79,11 +124,14 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  width: 270px;
+  height: 75px;
 }
-.header-doing-text {
+.header-activities-text {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .header-team-text {
   font-weight: 700;
@@ -94,10 +142,22 @@ body {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .name-list-description {
   color: rgba(117, 117, 117, 1);
   letter-spacing: 0.03em;
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 .portfolio-buttons {
   font-weight: 500;
@@ -107,37 +167,143 @@ body {
   background-color: rgba(245, 244, 250, 1);
   line-height: 1.62;
   letter-spacing: 0.03em;
+  border-style: none;
+  padding: 6px 22px;
 }
 .portfolio-buttons:hover {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(33, 150, 243, 1);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .all-different-things {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin: 0px;
+  padding-left: 0px;
+  padding-bottom: 4px;
+  padding-top: 0px;
 }
 .description-things {
   color: rgba(117, 117, 117, 1);
   line-height: 1.87;
   letter-spacing: 0.03em;
+  margin: 0px;
+  padding: 0px;
 }
 .team-list {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  gap: 30px;
 }
 .activities-list {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  gap: 30px;
 }
 .button-list {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 .list-all {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 50px;
 }
 .header-list-parent {
   list-style: none;
+  display: flex;
+  gap: 46px;
+  margin-left: 93px;
 }
 .info-list {
   list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 30px;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+}
+.header-section-portfolio {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+.info-section {
+  width: 1200px;
+  margin-left: 215px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.activities-section {
+  width: 1200px;
+  margin-left: 215px;
+  padding-bottom: 94px;
+}
+.team-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(245, 244, 250, 1);
+}
+.team-list-div {
+  padding-bottom: 94px;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(47, 48, 58, 1);
+}
+.team-list-item {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.footer-contact-list {
+  list-style: none;
+  margin-left: 215px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-bottom: 60px;
+}
+.container {
+  display: flex;
+  width: 1200px;
+  margin-left: 215px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.item-list-all {
+  border-left: 1px solid rgba(238, 238, 238, 1);
+  border-right: 1px solid rgba(238, 238, 238, 1);
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+}
+
+.outline-different-things {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 24px 20px 24px;
 }
