@@ -118,6 +118,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .list-text {
   color: rgba(117, 117, 117, 1);
@@ -126,17 +127,22 @@ body {
   letter-spacing: 0.03em;
   width: 270px;
   height: 75px;
+  margin-top: 0px;
 }
 .header-activities-text {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 0px;
 }
 .header-team-text {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
+  padding-top: 94px;
+  margin-bottom: 50px;
 }
 .name-list {
   font-weight: 500;
