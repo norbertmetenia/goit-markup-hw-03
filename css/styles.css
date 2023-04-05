@@ -1,0 +1,143 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgba(33, 33, 33, 1);
+  line-height: 1.17;
+}
+.semi-tittle {
+  color: rgba(33, 150, 243, 1);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+.tittle-end {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+.links {
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.header-list {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.header-list:hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+.button-buisness {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(33, 150, 243, 1);
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+.contact-header {
+  color: rgba(117, 117, 117, 1);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.contact-header:hover {
+  color: rgba(33, 150, 243, 1);
+}
+.contact-footer {
+  color: rgba(117, 117, 117, 1);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.adress {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.effective-solutions {
+  background-color: rgba(47, 48, 58, 1);
+}
+.hero-text {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+.list-heading {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+.list-text {
+  color: rgba(117, 117, 117, 1);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.header-doing-text {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+}
+.header-team-text {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+}
+.name-list {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+.name-list-description {
+  color: rgba(117, 117, 117, 1);
+  letter-spacing: 0.03em;
+}
+.portfolio-buttons {
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  color: inherit;
+  background-color: rgba(245, 244, 250, 1);
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.portfolio-buttons:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(33, 150, 243, 1);
+}
+.all-different-things {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.description-things {
+  color: rgba(117, 117, 117, 1);
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+.team-list {
+  list-style: none;
+}
+.activities-list {
+  list-style: none;
+}
+.button-list {
+  list-style: none;
+}
+.list-all {
+  list-style: none;
+}
+.header-list-parent {
+  list-style: none;
+}
+.info-list {
+  list-style: none;
+}
